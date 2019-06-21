@@ -1,8 +1,7 @@
 .header{
     position: fixed;
-    width: 90%;
-    /* background: #ffffff; */
-    /* color:#ffff; */
+    width: 100%;
+    float: left;
     border-bottom: 2px solid #ccc;
     margin-bottom: 50px;
 }
@@ -12,15 +11,17 @@
     width: 250px;
     height: 90px;
     color: white;
-    background: #4aaaa5;
+    background-color: #4aaaa5;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     text-decoration: none;
+    margin-left: 250px;
 }
 
 .nav{
-    float: right;
+    float: left;
+   margin-left: 500px;
 
 }
 
@@ -37,7 +38,7 @@
 body {
     padding: 20px;
     margin-left: 40px;
-    /* color: white; */
+	margin: 0 0 75px;
   }
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
