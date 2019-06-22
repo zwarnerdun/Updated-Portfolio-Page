@@ -198,7 +198,7 @@ input[type=submit] {
   opacity: 0.8;
 }
 
-.work h3 {
+.work a {
   position: absolute;
   bottom: 20px;
   width: 100%;
@@ -227,4 +227,48 @@ nav a:hover {
 .social:hover {
   cursor: pointer;
   opacity: 0.8;
+}
+
+@media (max-width: 980px) {
+	#container {
+	  width: 100%;
+	}
+	#content {
+	  width: 70%;
+	}
+	#social {
+	  width: 30%;
+	}
+	.wrapper {
+	  width: 100%;
+	}
+}
+@media (max-width: 768px) {
+	#container {
+	  width: 100%;
+	}
+	#content {
+	  width: 100%;
+	}
+	#social {
+	  width: 100%;
+	}
+	.wrapper {
+	  width: 100%;
+	}
+}
+  
+@media (max-width: 640px) {
+	.wrapper {
+	  position: static;
+	}
+	#container {
+	 width: 100%;
+	}
+	#content{
+	  width: 100%;
+	}
+	#social{
+	  width: 100%;
+	}
 }
