@@ -1,11 +1,20 @@
 body {
-	background-image: url("../images/background.png");
-	background-repeat: repeat;
+	background-color: #aed9e0;
 	font-family: Arial;
 	font-size: 18px;
 	color: #777;
 	line-height: 28px;
 }
+
+button{
+	border-radius:12px;
+	background: #ffa69e;
+	border: #ffa69e;
+	color:white;
+	font-size: 20px;
+
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -22,7 +31,7 @@ body {
 
 h1, h2 {
 	font-family: "Georgia";
-	color: #4aaaa5;
+	color:black;
 	padding-bottom: 30px;
 	font-weight: bold;
 	text-align: left;
@@ -31,27 +40,27 @@ h1, h2 {
 
 h1 {
 	font-size: 30px;
-	border-bottom: 2px solid #ccc;
+	border-bottom: 1.5px solid black;
 }
 
 h2 {
 	font-size: 22px;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid black;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
 }
 
 header {
-	background-color: #fff;
+	background-color:#5e6472;
 	margin-bottom: 40px;
-	border-bottom: 2px solid #ccc;
+	border-bottom: 8px solid #ffa69e;
 }
 
 #logo {
 	float: left;
 	display: block;
-	background-color: #4aaaa5;
-	color:#fff;
+	background-color:#5e6472;
+	color:white;
 	font-family: "Georgia";
 	font-size: 30px;
 	padding: 0 40px;
@@ -75,11 +84,10 @@ nav ul li {
 
 nav ul li a {
 	text-decoration: none;
-	color: #999;
+	color:white;
 	margin-left: 20px;
 	line-height: 22px;
 	padding-left: 20px;
-	border-left: 1px solid #ddd;
 }
 
 nav ul li:first-child a {
@@ -95,16 +103,16 @@ nav ul li:first-child a {
 
 footer {
 	text-align: center;
-	background-color: #777;
-	color: #ccc;
+	background-color:#5e6472;
+	color: white;
 	line-height: 90px;
 	margin-top: 40px;
-	border-top: 8px solid #4aaaa5;
+	border-top: 8px solid #ffa69e;
 	font-size: 12px;
 }
 
 .module {
-	background-color: #fff;
+	background-color: white;
 	padding: 30px;
 	border: 1px solid #ddd;
 }
@@ -112,6 +120,7 @@ footer {
 #content {
 	float: left;
 	width: 650px;
+	color: black
 }
 
 #social {
@@ -174,7 +183,7 @@ input[type=submit] {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #ffa69e;
   border: 0 none;
 }
 
